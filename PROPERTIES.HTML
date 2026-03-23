@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Display Properties</title>
+
+    <style>
+        /* Block element */
+        .blockBox {
+            display: block;
+            width: 200px;
+            background-color: lightblue;
+            margin-bottom: 10px;
+        }
+
+        /* Inline element */
+        .inlineBox {
+            display: inline;
+            width: 200px;  /* Note: width has no effect on inline */
+            background-color: lightgreen;
+        }
+
+        /* Inline-block element */
+        .inlineBlockBox {
+            display: inline-block;
+            width: 200px;
+            background-color: lightcoral;
+            margin-top: 10px;
+        }
+
+        /* None (hidden) */
+        .noneBox {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>CSS Display Properties Example</h2>
+
+    <div class="blockBox">Block Element</div>
+    <span class="inlineBox">Inline Element 1</span>
+    <span class="inlineBox">Inline Element 2</span>
+    <div class="inlineBlockBox">Inline-Block Element</div>
+    <div class="noneBox">This will not be visible</div>
+
+</body>
+</html>

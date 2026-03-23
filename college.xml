@@ -1,0 +1,13 @@
+<?xml=version=0.1 encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="college.xsl"?>
+    
+        <college>
+        <name>Nepathya College</name>
+        <heading>faculty</heading>
+        <faculty>
+        <name>BCA</name>
+        </faculty>
+        <faculty>
+        <name>CSIT</name>
+        </faculty>
+        </college>
